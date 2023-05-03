@@ -27,6 +27,7 @@ public class TeamAnalyzer {
                 // Remember to look at those "against_NNN" column values; greater than 1
                 // means the Pokemon is strong against that type, and less than 1 means
                 // the Pokemon is weak against that type
+
             }
 
             String answer = input("Would you like to save this team? (Y)es or (N)o: ");
@@ -39,7 +40,7 @@ public class TeamAnalyzer {
             else {
                 print("Bye for now!");
             }
-        }        
+        }
     }
 
     /*
